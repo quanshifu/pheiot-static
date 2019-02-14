@@ -29,6 +29,11 @@ html {
 body {
     margin: 0;
 }
+.warp{
+    min-width: 1440px;
+    margin: 0 auto;
+    position: relative;
+}
 
 /**
  * Add the correct display in IE 9-.
