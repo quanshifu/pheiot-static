@@ -3,9 +3,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-body{
-	min-width:1600px;
-}
+
 .w{
 	width: 1440px;
 	margin: auto;
@@ -20,11 +18,11 @@ body{
     clear: both;
     display: block;
     content: "";
-    height: 0
+    height: 0;
 }
 
 .clearfix {
-    * zoom: 1
+    * zoom: 1;
 }
 li{
 	list-style: none;
@@ -319,7 +317,7 @@ li{
 	height: 620px;
 	position: absolute;
 	top:1130px;
-	width: 100%;
+	//width: 100%;
 }
 .service .w .title{
 	width: 100%;
