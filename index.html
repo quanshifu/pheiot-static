@@ -18,8 +18,8 @@
 					<li><i class="fa fa-skyatlas fa-lg" aria-hidden="true"></i>&nbsp&nbsp天玑云智能</li>
 					<li onclick="javascript:document.getElementsByName('about')[0].scrollIntoView()">联系我们</li>
 					<li onclick="javascript:document.getElementsByName('parters')[0].scrollIntoView()">伙伴&nbsp&nbsp/&nbsp&nbsp客户</li>
-					<li onclick="javascript:document.getElementsByName('solution')[0].scrollIntoView()">解决方案</li>
-					<li onclick="javascript:document.getElementsByName('service')[0].scrollIntoView()">能力与服务</li>
+					<li onclick="javascript:document.getElementsByName('solution')[0].scrollIntoView()">方案与服务</li>
+					<li onclick="javascript:document.getElementsByName('service')[0].scrollIntoView()">产品与能力</li>
 				</ul>
 		</div>
 		
@@ -38,17 +38,17 @@
 		<ul>
 			 <li class="active">
 				<img src="images/home/u1_state0.jpg">
-                <div class="target">
-                    <p class="target">赋AI+IoT之能，助力企业创新增值</p>
-                    <span>做更懂企业的物联网解决方案和服务提供商，提供创新服务，共创科技美好生态</span>
-                </div>
-			</li> 
+                	<div class="target">
+                    	<p class="target">藉AI+IoT之能，共建科技美好生态</p>
+                    	<span>做更懂企业的物联网解决方案和服务提供商，提供创新服务，共创科技美好生态</span>
+                	</div>
+			</li>
 			<li>
 				<img src="images/home/u30.png">
-				<div class="target">
+				<div class="target1">
 					<p>PheCloud</p>
 					<span>天纪云智能AIoT SaaS服务</span>
-					<a href="#">立即体验</a>
+					<a href="#">马上体验</a>
 				</div>
 			</li>
 			
@@ -100,7 +100,7 @@
 	<div class="service" name="service">
 		<div class="w">
 			<div class="title">
-				<p><span>能力与服务</span></p>
+				<p><span>产品与能力</span></p>
 			</div>
 			<div class="tab">
 				<div class="tab-hd">
@@ -184,13 +184,31 @@
 						</li>
 					</ul>
 					<ul>
-						<li class="nothing"><img src="images/home/u72.svg"></li>
+						<li class="nothing">
+							<img src="images/home/u72.svg">
+							<div class="wait">
+								<p>内容建设中</p>
+								<span>敬请期待</span>
+							</div>
+						</li>
 					</ul>
 					<ul>
-						<li class="nothing"><img src="images/home/u72.svg"></li>
+						<li class="nothing">
+							<img src="images/home/u72.svg">
+							<div class="wait">
+								<p>内容建设中</p>
+								<span>敬请期待</span>
+							</div>
+						</li>
 					</ul>
 					<ul>
-						<li class="nothing"><img src="images/home/u76.svg"></li>
+						<li class="nothing">
+							<img src="images/home/u76.svg">
+							<div class="wait">
+								<p>内容建设中</p>
+								<span>敬请期待</span>
+							</div>
+						</li>
 					</ul>
 				</div>
 			</div>
@@ -200,7 +218,7 @@
 	<div class="solution" name="solution">
 		<div class="w">
 			<div class="title">
-				<p><span>解决方案</span></p>
+				<p><span>解决方案与应用</span></p>
 			</div>
 			<div>
 				<p>聚焦垂直行业，深入理解客户刚需，挖掘客户痛点，帮助客户构建各种创新的物联网应用场景，助力客户解决实际问题，不断提高生产效率、业务响应能力、规模化创新能力及盈利能力，最终打破行业边界构建更多新的价值，实现商业模式的突破和业务腾飞</p>
@@ -241,7 +259,7 @@
 						<p>智慧人居</p>
 						<span>全屋智能，智慧小区</span>
 							
-						<a href="#">了解更多&nbsp>></a>
+						<a href="#">了解更多&nbsp&nbsp>></a>
 					</div>
 					<div class="zhihui1"><img src="images/home/u114.png"></div>
 					<div class="rightshad"></div>
@@ -253,7 +271,7 @@
 							<li>家人互动&nbsp|&nbsp</li>
 							<li>&nbsp社区医随&nbsp|</li>
 						</ul>
-						<a href="#">了解更多&nbsp>></a>
+						<a href="#">了解更多&nbsp&nbsp>></a>
 					</div>
 					
 					
@@ -287,18 +305,27 @@
 					</div>
 				</div>
 				<div class="fline2">
-					<div>
+					<div class="industry">
+						<img src="images/home/u109.png">
+					</div>
+					<div class="industryshad" ></div>
+					<div class="industry-con">
 						<p>智慧工业</p>
 						<span>智能工厂，智能制造</span>
-						<img src="images/home/u109.png">
 						<a href="#">了解更多&nbsp>></a>
 					</div>
-					<div>
+
+
+					<div class="energy">
+						<img src="images/home/u152.png">
+					</div>
+					<div class="energyshad"></div>
+					<div class="energy-con">
 						<p>能源管理</p>
 						<span>数据采集，能效分析</span>
-						<img src="images/home/u152.png">
 						<a href="#">了解更多&nbsp>></a>
 					</div>
+
 				</div>
 				<div class="sline">
 					<div>
@@ -477,7 +504,7 @@
 		//自动轮播
 		idx = $(".banner>ol> .current").index();
 		var lenIdx = $(".banner ul li").length;
-        var timer = setInterval(move, 6000);
+        //var timer = setInterval(move, 6000);
         function move() {
 			var cur = $(".banner>ol> .current").index();
 			console.log("idx....",idx,"....cur....",cur);
@@ -494,7 +521,7 @@
             $(".banner ol li").eq(idx).addClass("current").siblings().removeClass("current");
             //idx--;
             $(".banner ol li").eq(idx).addClass("current").siblings().removeClass("current");
-            $(".banner ul li").eq(idx).fadeIn(1).siblings().fadeOut();
+            $(".banner ul li").eq(idx).fadeIn("slow").siblings().fadeOut();
             idx++;
         }
 
