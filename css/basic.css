@@ -372,15 +372,9 @@ li{
 
 /*产品和服务开始*/
 .service{
-<<<<<<< HEAD
-	height: 620px;
-	position: absolute;
-	top:1140px;
-=======
 	height: 675px;
 	position: relative;
 	/*top:1140px;*/
->>>>>>> 更新内容+备案号
 	width: 100%;
 }
 .service .w .title{
@@ -615,10 +609,7 @@ li{
 	color: #666;
 	width: 276px;
 	display: inline-block;
-<<<<<<< HEAD
-=======
 	line-height: 20px;
->>>>>>> 更新内容+备案号
 }
 
 /*解决方案开始*/
@@ -1140,13 +1131,8 @@ li{
 
 /*合作伙伴开始*/
 .parters{
-<<<<<<< HEAD
-	position: absolute;
-	top: 4340px;
-=======
 	position: relative;
 	/*top: 4340px;*/
->>>>>>> 更新内容+备案号
 	left: 0; 
 	height: 405px;
 	font-weight: 700;
