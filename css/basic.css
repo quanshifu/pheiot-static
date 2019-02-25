@@ -1361,7 +1361,7 @@ li{
 }*/
 .about .aleft{
 	position: absolute;
-	top: 30px;
+	top: 15px;
 	left: 0;
 	height: 200px;
 	width: 600px;
@@ -1427,7 +1427,7 @@ li{
 .about .aright{
 	position: absolute;
 	top: 15px;
-	right: 90px;
+	right: 0;
 
 }
 
@@ -1464,7 +1464,7 @@ li{
 }
 
 .about .abottom{
-	width: 1300px;
+	width: 100%;
 	margin: 0 auto;
 	border-top: 1px solid rgb(112,112,112);
 	position: absolute;
@@ -1474,7 +1474,7 @@ li{
 	padding-top: 10px;
 }
 .about .subcontent{
-	width: 1300px;
+	width: 100%;
 	height: 320px;
 	top: 0;
 	left: 0;
