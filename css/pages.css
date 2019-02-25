@@ -1,0 +1,137 @@
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?9fhn24');
+    src:  url('../fonts/icomoon.eot?9fhn24#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?9fhn24') format('truetype'),
+    url('../fonts/icomoon.woff?9fhn24') format('woff'),
+    url('../fonts/icomoon.svg?9fhn24#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.per-content{
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #666666;
+    text-align: center;
+    line-height: 24px;
+    height: 650px;
+    width: 100%;
+    position: relative;
+}
+
+.per-content p{
+    position: absolute;
+    top: 310px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.per-content p:last-child{
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 40px;
+    height: 40px;
+    width: 120px;
+    background-color: rgba(210, 71, 38, 0.968627450980392);
+    color:#fff;
+    text-align: center;
+    font-size: 14px;
+}
+
+.per-content img{
+    width: 218px;
+    height: 150px;
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.recommend span{
+    position: absolute;
+    top: 140px;
+    font-family: '微软雅黑 Bold', '微软雅黑 Regular', '微软雅黑';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 52px;
+    color: #fff;
+}
+
+
+.warp>div:nth-child(2){
+    height: 650px;
+    width: 100%;
+    overflow: hidden;
+    /*background:url("../images/智慧人居/u267_state0.jpg") no-repeat left top;*/
+    background-attachment: scroll;
+    background-size: cover;
+}
+.warp .page-renju{
+    background:url("../images/智慧人居/u267_state0.jpg") no-repeat left top;
+}
+
+.warp .page-yanglao{
+    background:url("../images/智慧养老/u319_state0.jpg") no-repeat left top;
+}
+
+.warp .page-nongye{
+    background:url("../images/智慧农业/u787_state0.jpg") no-repeat left top;
+}
+
+.warp .page-nengyuan{
+    background:url("../images/能源管理/u631_state0.jpg") no-repeat left top;
+}
+
+.warp .page-xiaofei{
+    background:url("../images/消费级物联网解决方案/u215_state0.jpg") no-repeat left top;
+}
+
+.warp .page-jiejuefanan{
+    background:url("../images/工业级物联网解决方案/u527_state0.jpg") no-repeat left top;
+}
+
+.warp .page-xinlingshou{
+    background:url("../images/新零售/u371_state0.jpg") no-repeat left top;
+}
+
+.warp .page-zizhu{
+    background:url("../images/自助服务/u423_state0.jpg") no-repeat left top;
+}
+
+.warp .page-shangye{
+    background:url("../images/商业租赁/u475_state0.jpg") no-repeat left top;
+}
+.warp .page-zhihuigongye{
+    background:url("../images/智慧工业/u579_state0.jpg") no-repeat left top;
+}
+
+.warp .page-che{
+    background:url("../images/车联网/u683_state0.jpg") no-repeat left top;
+}
+
+.warp .page-yuce{
+    background:url("../images/预测性维保/u735_state0.jpg") no-repeat left top;
+}
+
+.warp .recommend .class-renju{
+    color: rgba(153, 153, 153, 0.968627450980392);
+}
+
+.warp .recommend .class-che{
+    color: #333;
+}
+
+.warp .recommend .class-yuce{
+    color: #333;
+}
+
+.warp .recommend .class-nongye{
+    color: #33cc33;
+}
+

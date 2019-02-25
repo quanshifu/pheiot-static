@@ -303,9 +303,9 @@ li{
 	height: 490px;
 	width: 100%;
 	background-color: rgba(242, 242, 242, 1);
-	position: absolute;
+	position: relative;
 	left: 0px;
-	top:650px;
+	/*top:650px;*/
 }
 .mession .w div:first-child{
 	margin: 0 auto;
@@ -372,9 +372,15 @@ li{
 
 /*产品和服务开始*/
 .service{
+<<<<<<< HEAD
 	height: 620px;
 	position: absolute;
 	top:1140px;
+=======
+	height: 675px;
+	position: relative;
+	/*top:1140px;*/
+>>>>>>> 更新内容+备案号
 	width: 100%;
 }
 .service .w .title{
@@ -609,13 +615,17 @@ li{
 	color: #666;
 	width: 276px;
 	display: inline-block;
+<<<<<<< HEAD
+=======
+	line-height: 20px;
+>>>>>>> 更新内容+备案号
 }
 
 /*解决方案开始*/
 .solution{
 	background-color: rgba(242, 242, 242, 1);
-	position: absolute;
-	top: 1800px;
+	position: relative;
+	/*top: 1800px;*/
 	left: 0;
 	height: 2540px;
 	font-weight: 700;
@@ -1067,7 +1077,7 @@ li{
 .solution .sline div:nth-child(2){
 	margin: 0 21px;
 }
-.fline div:first-child>p{
+.fline div:first-child>p a{
 	position: absolute;
 	left: 16.5%;
 	transform: translate(-50%);
@@ -1076,7 +1086,7 @@ li{
 	font-size: 26px;
 	font-weight: 700;
 }
-.fline div:nth-child(2)>p{
+.fline div:nth-child(2)>p a{
 	position: absolute;
 	left: 51%;
 	transform: translate(-50%);
@@ -1085,7 +1095,7 @@ li{
 	font-size: 26px;
 	font-weight: 700;
 }
-.fline div:nth-child(3)>p{
+.fline div:nth-child(3)>p a{
 	position: absolute;
 	left: 84.5%;
 	transform: translate(-50%);
@@ -1094,7 +1104,7 @@ li{
 	font-size: 26px;
 	font-weight: 700;
 }
-.sline div:first-child>p{
+.sline div:first-child>p a{
 	position: absolute;
 	left: 16.5%;
 	transform: translate(-50%);
@@ -1103,7 +1113,7 @@ li{
 	font-size: 26px;
 	font-weight: 700;
 }
-.sline div:nth-child(2)>p{
+.sline div:nth-child(2)>p a{
 	position: absolute;
 	left: 51%;
 	transform: translate(-50%);
@@ -1112,7 +1122,7 @@ li{
 	font-size: 26px;
 	font-weight: 700;
 }
-.sline div:nth-child(3)>p{
+.sline div:nth-child(3)>p a{
 	position: absolute;
 	left: 84.5%;
 	transform: translate(-50%);
@@ -1130,8 +1140,13 @@ li{
 
 /*合作伙伴开始*/
 .parters{
+<<<<<<< HEAD
 	position: absolute;
 	top: 4340px;
+=======
+	position: relative;
+	/*top: 4340px;*/
+>>>>>>> 更新内容+备案号
 	left: 0; 
 	height: 405px;
 	font-weight: 700;
@@ -1215,8 +1230,8 @@ li{
 .contact{
 	background-color:rgba(242, 242, 242, 1);
 	height: 429px;
-	position: absolute;
-	top: 4730px;
+	position: relative;
+	/*top: 4730px;*/
 	left: 0;
 	font-weight: 700;
 	font-style: normal;
@@ -1299,8 +1314,8 @@ li{
 .que{
 	background-color: rgba(210, 71, 38, 1);
 	height: 130px;
-	position: absolute;
-	top: 5159px;
+	position: relative;
+	/*top: 5159px;*/
 	left: 0;
 	line-height: 146px;
 	width: 100%;
@@ -1348,8 +1363,8 @@ li{
 	background-color: rgba(54, 54, 54, 1);
 	height: 320px;
 	color: #C9C9C9;
-	position: absolute;
-	top: 5289px;
+	position: relative;
+	/*top: 5289px;*/
 	left: 0;
 	width: 100%;
 }
@@ -1367,12 +1382,12 @@ li{
 }
 .about .aleft .br{
 	position: absolute;
-	top: 30px;
+	top: 15px;
 	left: 400px;
 }
 .about .aleft .info p{
 	position: absolute;
-	top: 30px;
+	top: 15px;
 	left: 0;
 	font-family: '微软雅黑';
 	font-weight: 400;
@@ -1382,7 +1397,7 @@ li{
 }
 .about .aleft .info input{
 	position: absolute;
-	top: 75px;
+	top: 45px;
 	height: 40px;
 	width: 220px;
 	font-family: '微软雅黑';
@@ -1404,7 +1419,7 @@ li{
 	background-color: rgba(210, 71, 38, 1);
 	position: absolute;
 	left: 240px;
-	top: 75px;
+	top: 45px;
 }
 .about .aleft .concern{
 	position: absolute;
@@ -1425,8 +1440,8 @@ li{
 }
 .about .aright{
 	position: absolute;
-	top: 30px;
-	right: 0;
+	top: 15px;
+	right: 90px;
 
 }
 
@@ -1465,11 +1480,11 @@ li{
 .about .abottom{
 	width: 1300px;
 	margin: 0 auto;
-	border-top: 1px solid #fff;
+	border-top: 1px solid rgb(112,112,112);
 	position: absolute;
 	bottom: 20px;
 	left: 0;
-	font-size: 12px;
+	font-size: 14px;
 	padding-top: 10px;
 }
 .about .subcontent{
