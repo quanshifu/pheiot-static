@@ -147,7 +147,7 @@ li{
 .banner ul li .target{
 	/*background-color: red;*/
 	position: absolute;
-	bottom: 240px;
+	bottom: 205px;
 	left: 50%;
 	transform: translate(-50%);
 	width: 1000px;
@@ -220,7 +220,7 @@ li{
 	width:1200px;
 	height:60px;
 	position: absolute;
-	top: 160px;
+	top: 122px;
 	left: 270px;
 	transform:translate(-30%);
 	color:rgb(250, 255, 239);
