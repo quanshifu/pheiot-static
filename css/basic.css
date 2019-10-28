@@ -103,7 +103,7 @@ li{
 	overflow-x: hidden;
 	overflow-y: hidden;
 	background-position: center center;
-	background-size: cover;
+	background-size: 100% 650px;
 	background-attachment: scroll;
 }
 
