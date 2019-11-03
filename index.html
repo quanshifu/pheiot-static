@@ -450,6 +450,7 @@
 		$(function(){
 		    //菜单栏特效
 		    $(".header").mouseenter(function () {
+		    	$(".header li").css("color","#FFFFFF");
                 $(this).css("backgroundColor","rgba(51, 51, 51, 0.698039215686274)");
             });
             $(".header").mouseleave(function () {
@@ -460,19 +461,22 @@
 			$(".banner>ol>li").click(function(){
 				$(this).addClass("current").siblings().removeClass("current");
 				var ind = $(this).index();
-				console.log("ind ",ind)
-
-				$(".banner>ul>li").eq(ind).fadeIn(1000).siblings().fadeOut(300);
+				// console.log("ind ",ind)
+				
+				$(".banner>ul>li").eq(ind).fadeIn(600).siblings().fadeOut(100);
 				if(ind == 1){
-					$(".header").css("backgroundColor","rgba(51, 51, 51, 0.2)");
+					$(".header li").css("color","rgba(51, 51, 51, 0.4)");
+				}else{
+					$(".header li").css("color","#FFFFFF");
 				}
+				
 			});
 
 			// tab菜单
 			$(".item").click(function(){
 				$(this).addClass("active").siblings().removeClass("active");
 				var inx = $(this).index();
-				console.log(inx);
+				// console.log(inx);
 				$(".tab-bd>ul").eq(inx).addClass("selected").siblings().removeClass("selected");
 			});
 		});
@@ -490,17 +494,17 @@
         		}
         		var cur = $(".banner>ol> .current").index();
         		// console.log("idx--",idx);
-        		$(".banner ul li").eq(idx).fadeIn(1000).siblings().fadeOut(300);
+        		$(".banner ul li").eq(idx).fadeIn(600).siblings().fadeOut(100);
         		$(".banner ul li").eq(idx).addClass("active").siblings().removeClass("active");
         		$(".banner ol li").eq(idx).addClass("current").siblings().removeClass("current");
         		
         	}
         	//如果是最后一页，给header加一点背景色，不然看不见
         	if (idx == (lenIdx-1)){
-        		$(".header").css("backgroundColor","rgba(51, 51, 51, 0.2)");
+        		$(".header li").css("color","rgba(51, 51, 51, 0.4)");
         	}
         	else{
-        		$(".header").css("backgroundColor","");
+        		$(".header li").css("color","");
         	}
         	idx++;
         }
